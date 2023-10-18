@@ -3,45 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <h1>Welcome to Our Website!</h1>
-        <p>Your reliable solution for XYZ</p>
-    </header>
+    <!-- Top Half with Two Columns -->
+    <div class="top-half">
+        <!-- Left Column -->
+        <div class="left-column">
+            <h2>About Me</h2>
+            <p>Your description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
 
-    <!-- Main Content Section -->
-    <main>
-        <section id="about-us">
-            <h2>About Us</h2>
-            <p>We provide top-notch solutions in XYZ domain.</p>
-        </section>
+        <!-- Right Column -->
+        <div class="right-column">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        </div>
+    </div>
 
-        <section id="services">
-            <h2>Services</h2>
-            <p>We specialize in A, B, and C services to cater to your needs.</p>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2023 Your Company</p>
-    </footer>
+    <!-- Bottom Half with One Column -->
+    <div class="bottom-half">
+        <h2>More About Me</h2>
+        <p>Extended description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+    </div>
 
 </body>
 </html>
