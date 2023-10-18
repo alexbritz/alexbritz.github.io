@@ -79,6 +79,7 @@ body {
 .left-column {
     flex: 1;
     padding: 20px;
+    justify-content: left;
 }
 
 .right-column {
@@ -90,8 +91,8 @@ body {
 }
 
 .profile-pic {
-    border-radius: 50%;
-    max-width: 20%;
+    border-radius: 10%;
+    max-width: 40%;
     height: auto;
 }
 
